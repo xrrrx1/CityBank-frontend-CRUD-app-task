@@ -22,8 +22,8 @@ const Content = styled.div``;
 
 const App = () => {
   const {
- store, addingNewUser, cancelUser, deleteUser 
-} = useContext(UsersContext);
+    store, addingNewUser, cancelUser, deleteUser,
+  } = useContext(UsersContext);
 
   const addUser = () => {
     addingNewUser();

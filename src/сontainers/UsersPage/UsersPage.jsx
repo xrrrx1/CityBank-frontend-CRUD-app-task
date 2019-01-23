@@ -25,15 +25,15 @@ const UsersPage = () => {
             {store.hasData
               ? store.users.map(user => (
                 <User
-                    key={user.id}
-                    id={user.id}
-                    name={user.name}
-                    city={user.city}
-                    dateOfBirth={user.dateOfBirth}
-                    phone={user.phone}
-                    address={user.address}
-                    editingUser={editingUser}
-                  />
+                  key={user.id}
+                  id={user.id}
+                  name={user.name}
+                  city={user.city}
+                  dateOfBirth={user.dateOfBirth}
+                  phone={user.phone}
+                  address={user.address}
+                  editingUser={editingUser}
+                />
               ))
               : null}
           </div>

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { Redirect } from 'react-router-dom';
 import {
- Formik, Form, Field, ErrorMessage 
+  Formik, Form, Field, ErrorMessage,
 } from 'formik';
 import { UsersContext } from '../../context/context';
 import ContextButton from '../../components/ContextButton/ContextButton';
