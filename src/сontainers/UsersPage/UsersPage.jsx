@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import { UsersContext } from '../../context/context';
 import User from '../../components/User/User';
+import Loader from '../../components/Loader/Loader';
 
 const UsersPage = () => {
   const { store, getUsers, editingUser } = useContext(UsersContext);
@@ -17,7 +18,7 @@ const UsersPage = () => {
       <div>
         {store.isLoading ? (
           <div>
-            <h1 style={{ margin: '20px 40px' }}>Loading....</h1>
+            <Loader color="black" />
           </div>
         ) : (
           <div>
