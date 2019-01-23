@@ -1,0 +1,9 @@
+export const USERS_API = '//5b06530aff98d70014f387f9.mockapi.io/users/';
+export const USERS_REQUEST = 'USERS_REQUEST';
+export const USERS_RECEIVE = 'USERS_RECEIVE';
+export const ADDING_NEW_USER = 'ADDING_NEW_USER';
+export const ADD_NEW_USER = 'ADD_NEW_USER';
+export const CANCEL_USER = 'CANCEL_USER';
+export const EDIT_USER = 'EDIT_USER';
+export const EDITING_USER = 'EDITING_USER';
+export const DELETE_USER = 'DELETE_USER';
